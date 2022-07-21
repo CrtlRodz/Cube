@@ -19,7 +19,7 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(90deg, #0ee661, #081ee0);
+    background-image: linear-gradient(90deg, #05eebc, #03f2fa);
   }
   .top {
     transform: rotateX(90deg) translateZ(100px);
@@ -41,6 +41,7 @@ body{
   .back {
     transform: rotateX(-180deg) translateZ(100px);
   }
+  /* Animation Code */
   @keyframes spin {
     from {
       transform: rotateX(0deg) rotateY(0deg);
